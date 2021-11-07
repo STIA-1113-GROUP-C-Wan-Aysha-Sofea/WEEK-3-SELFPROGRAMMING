@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 //string is used to print word or names
+		//integer is used to write numbers
+		// integer cannot put number with decimal point and have limited numbers
+		// long is used to represent a very long numbers
+		//float has decimal point but limited numbers but double can be in very long numbers
+		
+		int a = 5; 
+		int b = 2;
+		int c = 0;
+		int d = 100;
+		int e = -250;
+		long f = 899999999L; //L represent long
+		float g = 2.5F; //F represent float
+		double h = 5.4;
+		
+		System.out.println(a + b);
+		System.out.println(a/d);
+		 
+	}
+
+}
