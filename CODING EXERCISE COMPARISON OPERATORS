@@ -1,0 +1,30 @@
+package selfProgramming;
+
+public class ComparisonOperators {
+
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 4;
+		boolean c = (a == b);
+		boolean d = (a >= b);
+		boolean e = (a != b); //!= represent not equal to
+		
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		
+		System.out.println();
+		double x = 2.4;
+		
+		if(x == 2.4) {
+			System.out.println("They are equal!");
+			
+		if (x == 2.4 && x == 2.5) { // || represent or
+			System.out.println("a is 2.4 and 2.5");
+			
+			// && 
+		}
+		}
+	}
+
+}
